@@ -27,7 +27,13 @@ endif()
 
 add_executable(Tetris main.cpp
         grid.h
-        grid.cpp)
+        grid.cpp
+        block.h
+        position.h
+        position.cpp
+        block.cpp
+        colors.h
+        colors.cpp)
 
 target_link_libraries(Tetris PUBLIC raylib)
 

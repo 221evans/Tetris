@@ -63,6 +63,27 @@ build CMakeFiles/Tetris.dir/grid.cpp.o: CXX_COMPILER__Tetris_unscanned_Debug /Us
   OBJECT_DIR = CMakeFiles/Tetris.dir
   OBJECT_FILE_DIR = CMakeFiles/Tetris.dir
 
+build CMakeFiles/Tetris.dir/position.cpp.o: CXX_COMPILER__Tetris_unscanned_Debug /Users/jasonevans/Documents/Tetris/position.cpp || cmake_object_order_depends_target_Tetris
+  DEP_FILE = CMakeFiles/Tetris.dir/position.cpp.o.d
+  FLAGS = -g -std=gnu++2b -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  INCLUDES = -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Tetris.dir
+  OBJECT_FILE_DIR = CMakeFiles/Tetris.dir
+
+build CMakeFiles/Tetris.dir/block.cpp.o: CXX_COMPILER__Tetris_unscanned_Debug /Users/jasonevans/Documents/Tetris/block.cpp || cmake_object_order_depends_target_Tetris
+  DEP_FILE = CMakeFiles/Tetris.dir/block.cpp.o.d
+  FLAGS = -g -std=gnu++2b -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  INCLUDES = -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Tetris.dir
+  OBJECT_FILE_DIR = CMakeFiles/Tetris.dir
+
+build CMakeFiles/Tetris.dir/colors.cpp.o: CXX_COMPILER__Tetris_unscanned_Debug /Users/jasonevans/Documents/Tetris/colors.cpp || cmake_object_order_depends_target_Tetris
+  DEP_FILE = CMakeFiles/Tetris.dir/colors.cpp.o.d
+  FLAGS = -g -std=gnu++2b -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  INCLUDES = -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Tetris.dir
+  OBJECT_FILE_DIR = CMakeFiles/Tetris.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Tetris
@@ -71,7 +92,7 @@ build CMakeFiles/Tetris.dir/grid.cpp.o: CXX_COMPILER__Tetris_unscanned_Debug /Us
 #############################################
 # Link the executable Tetris
 
-build Tetris: CXX_EXECUTABLE_LINKER__Tetris_Debug CMakeFiles/Tetris.dir/main.cpp.o CMakeFiles/Tetris.dir/grid.cpp.o | /opt/homebrew/lib/libraylib.dylib
+build Tetris: CXX_EXECUTABLE_LINKER__Tetris_Debug CMakeFiles/Tetris.dir/main.cpp.o CMakeFiles/Tetris.dir/grid.cpp.o CMakeFiles/Tetris.dir/position.cpp.o CMakeFiles/Tetris.dir/block.cpp.o CMakeFiles/Tetris.dir/colors.cpp.o | /opt/homebrew/lib/libraylib.dylib
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
   LINK_LIBRARIES = /opt/homebrew/lib/libraylib.dylib
   OBJECT_DIR = CMakeFiles/Tetris.dir
