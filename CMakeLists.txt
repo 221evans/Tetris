@@ -25,7 +25,9 @@ if (NOT raylib_FOUND) # If there's none, fetch and build raylib
 
 endif()
 
-add_executable(Tetris main.cpp)
+add_executable(Tetris main.cpp
+        grid.h
+        grid.cpp)
 
 target_link_libraries(Tetris PUBLIC raylib)
 
